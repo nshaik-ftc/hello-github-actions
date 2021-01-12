@@ -1,34 +1,34 @@
 #!/bin/sh -l
 
 sh -c "echo Hello world my name is $INPUT_MY_NAME"
-sh -c $HOME 
-sh -c $GITHUB_JOB 
-sh -c $GITHUB_REF 
-sh -c $GITHUB_SHA 
-sh -c $GITHUB_REPOSITORY 
-sh -c $GITHUB_REPOSITORY_OWNER 
-sh -c $GITHUB_RUN_ID 
-sh -c $GITHUB_RUN_NUMBER 
-sh -c $GITHUB_RETENTION_DAYS 
-sh -c $GITHUB_ACTOR 
-sh -c $GITHUB_WORKFLOW 
-sh -c $GITHUB_HEAD_REF 
-sh -c $GITHUB_BASE_REF 
-sh -c $GITHUB_EVENT_NAME 
-sh -c $GITHUB_SERVER_URL 
-sh -c $GITHUB_API_URL 
-sh -c $GITHUB_GRAPHQL_URL 
-sh -c $GITHUB_WORKSPACE 
-sh -c $GITHUB_ACTION 
-sh -c $GITHUB_EVENT_PATH 
-sh -c $GITHUB_ACTION_REPOSITORY 
-sh -c $GITHUB_ACTION_REF 
-sh -c $GITHUB_PATH 
-sh -c $GITHUB_ENV 
-sh -c $RUNNER_OS 
-sh -c $RUNNER_TOOL_CACHE 
-sh -c $RUNNER_TEMP 
-sh -c $RUNNER_WORKSPACE 
-sh -c $ACTIONS_RUNTIME_URL 
-sh -c $ACTIONS_RUNTIME_TOKEN 
-sh -c $ACTIONS_CACHE_URL
+sh -c "echo Branch name is $GITHUB_REF" 
+sh -c "echo $HOME                    "
+sh -c "echo $GITHUB_JOB              "
+sh -c "echo $GITHUB_SHA              "
+sh -c "echo $GITHUB_REPOSITORY       "
+sh -c "echo $GITHUB_REPOSITORY_OWNER "
+sh -c "echo $GITHUB_RUN_ID           "
+sh -c "echo $GITHUB_RUN_NUMBER       "
+sh -c "echo $GITHUB_RETENTION_DAYS   "
+sh -c "echo $GITHUB_ACTOR            "
+sh -c "echo $GITHUB_WORKFLOW         "
+sh -c "echo $GITHUB_HEAD_REF         "
+sh -c "echo $GITHUB_BASE_REF         "
+sh -c "echo $GITHUB_EVENT_NAME       "
+sh -c "echo $GITHUB_SERVER_URL       "
+sh -c "echo $GITHUB_API_URL          "
+sh -c "echo $GITHUB_GRAPHQL_URL      "
+sh -c "echo $GITHUB_WORKSPACE        "
+sh -c "echo $GITHUB_ACTION           "
+sh -c "echo $GITHUB_EVENT_PATH       "
+sh -c "echo $GITHUB_ACTION_REPOSITORY"
+sh -c "echo $GITHUB_ACTION_REF       "
+sh -c "echo $GITHUB_PATH             "
+sh -c "echo $GITHUB_ENV              "
+sh -c "echo $RUNNER_OS               "
+sh -c "echo $RUNNER_TOOL_CACHE       "
+sh -c "echo $RUNNER_TEMP             "
+sh -c "echo $RUNNER_WORKSPACE        "
+sh -c "echo $ACTIONS_RUNTIME_URL     "
+sh -c "echo $ACTIONS_RUNTIME_TOKEN   "
+sh -c "echo $ACTIONS_CACHE_URL       "
