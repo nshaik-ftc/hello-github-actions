@@ -7,6 +7,9 @@ inputs:
     description: "Who to greet"
     required: true
     default: "World"
+  ACTION_PATH:
+    description: "Actions Path"
+    default: $GITHUB_ACTION_PATH
 
 runs:
   using: "docker"
